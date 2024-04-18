@@ -1,0 +1,36 @@
+#fondo{
+    display: flex;
+    align-items: center;
+    width: 950px;
+    height: 150px;
+    padding: 10px;
+    background-color: rgb(97, 97, 97);
+}
+#parent {
+    display: flex;
+  }
+  #narrow {
+    width: 550px;
+    height: 1300px;
+    padding: 30px;
+    background: rgb(238, 238, 238);
+  }
+  #wide {
+    width: 300px;
+    height: 1300px;
+    padding: 30px;
+    background: rgb(139, 139, 139);
+}
+
+.imagen {
+    width: 160px;
+    height: 130px;
+    padding: 90px;
+}
+
+.titulo {
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(141, 195, 243);
+}
